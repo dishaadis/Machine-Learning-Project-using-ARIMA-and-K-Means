@@ -65,5 +65,6 @@ This directory contains the following files :
 To run this project, the following tools are needed
 
   * **PostgreSQL**
+  * **Tableau**
   * **Jupyter Notebook**
 </p>
