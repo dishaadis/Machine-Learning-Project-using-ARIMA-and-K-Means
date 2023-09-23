@@ -4,14 +4,10 @@
 
 ## Project Description
 <p align="justify">
-A deep understanding of customer behavior and personality is a crucial foundation for rapid and sustainable growth for a company. By knowing the individual characteristics of customers, companies can provide more relevant services and better benefits for them, especially customers who have the potential to become loyal customers who contribute significantly to the company's success.
-  
-<p align="justify">
-One way to achieve this understanding is by analyzing historical data from past marketing campaigns. Companies can identify customer behavior patterns, preferences, and trends by analyzing this data. It allows companies to optimize the performance of future marketing campaigns by directing their efforts to customers who have the highest interest and potential to transact on the company's platform.
-  
-<p align="justify">
-However, what is even more important is that the insights gained from this data help companies design effective cluster prediction models. This model helps group customers based on their characteristics, allowing companies to design more focused and personalized strategies. As a result, companies can make smarter decisions in various aspects of business, such as product development, marketing strategy, and customer relationship management. Thus, cluster prediction models make it easier for companies to optimize their operations and achieve sustainable growth.
+The project encompasses two main objectives to address distinct needs within the company. Firstly, the inventory team seeks to enhance their inventory management process by accurately estimating the quantity of products to be sold on a daily basis. This is a crucial aspect of their operations to ensure that an adequate level of inventory is maintained without excess, preventing both stockouts and overstocking. To tackle this challenge, the project will employ machine learning techniques, specifically the ARIMA model, to forecast the time series of product quantities.
 
+<p align="justify">
+Secondly, the marketing team aims to improve customer engagement by tailoring promotions and sales treatments based on specific customer segments. The goal is to deliver personalized and targeted marketing strategies that resonate with different groups of customers. To achieve this objective, machine learning clustering methods, particularly the K-Means model, will be utilized. This approach will help identify distinct customer groups based on various criteria, allowing the marketing team to tailor their efforts effectively. In essence, this project harnesses the power of machine learning to optimize inventory management and refine customer segmentation, ultimately leading to more efficient operations and improved customer satisfaction.
 </p>
 
 ## Repository Structure
@@ -39,6 +35,7 @@ This directory contains the following files :
 <p align="justify">
 This directory contains the following files :
   
+  * **Query Machine Learning Project.sql** : Query to analyze Data and EDA.
   * **Machine Learning Project Using ARIMA and K-Means.ipynb** : Source code to perform data preprocessing, EDA and modeling.
   
 </p>
@@ -49,8 +46,9 @@ The analysis process carried out in this project is as follows :
   
   1. Data Visualization
   2. Exploratory Data Analysis (EDA)
-  3. Modeling ARIMA and K-Means
-  4. Insight & Recomendations
+  3. ARIMA Modeling
+  4. K-Means Modeling
+  5. Insight & Recomendations
   
 </p>
 
@@ -58,6 +56,7 @@ The analysis process carried out in this project is as follows :
 <p align="justify">
 This directory contains the following files :
 
+  * **Sales Performance Dashboard** : Overall data dashboard.
   * **Machine Learning Project Report.pdf** : Reports on analysis steps, data preprocessing, visualizations, interpretations, insights and recommendations.
 </p>
 
